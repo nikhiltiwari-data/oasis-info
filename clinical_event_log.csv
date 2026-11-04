@@ -1,8 +1,0 @@
-Patient_ID,Activity,Timestamp,Department
-PAT-101,Triage,2026-10-01 09:00:00,Emergency
-PAT-101,Consultation,2026-10-01 09:30:00,OPD
-PAT-101,Lab Test,2026-10-01 10:15:00,Diagnostics
-PAT-101,Discharge,2026-10-01 12:00:00,Billing
-PAT-102,Triage,2026-10-01 09:15:00,Emergency
-PAT-102,Consultation,2026-10-01 10:00:00,OPD
-PAT-102,Discharge,2026-10-01 11:30:00,Billing
