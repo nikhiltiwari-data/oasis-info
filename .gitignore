@@ -1,0 +1,8 @@
+gcp_key.json
+.venv/
+outputs/
+__pycache__/
+logs/
+target/
+.user.yml
+dbt_careflow/profiles.yml
