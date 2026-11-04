@@ -1,0 +1,11 @@
+careflow:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: careflow-project-513611
+      dataset: careflow_analytics
+      keyfile: <path-to>/gcp_key.json
+      location: US
+      threads: 2
