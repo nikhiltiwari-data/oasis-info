@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: careflow_raw
+    database: careflow-project-513611
+    schema: careflow_raw
+    tables:
+      - name: ehr_events
