@@ -1,0 +1,5 @@
+pandas
+google-cloud-bigquery
+pm4py
+graphviz
+dbt-bigquery
