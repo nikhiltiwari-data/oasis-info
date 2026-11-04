@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: event_log
+    columns:
+      - name: Case_ID
+        tests: [not_null]
+      - name: event_time
+        tests: [not_null]
+      - name: Activity_Name
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Registration', 'Triage', 'X-Ray', 'Lab Test',
+                       'Doctor Consultation', 'Discharge', 'Admission']
